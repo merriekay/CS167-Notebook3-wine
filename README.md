@@ -27,8 +27,8 @@ For an example of this using the Iris dataset or the Penguin dataset to help sol
 1. Implement mean squared error (mse) algorithm and test it (make sure if you pass in two lists that are identical, it should output 0).  
     `def mse(actual,predicted):`
     
-2.  Implement the testing and training data. Use the approximately the first 320 rows in the shuffled set as testing data. Feel free to use fewer examples in your testing set -- particularly if it takes a long time to run on your computer (e.g. more than 30 seconds). 
-3. Use the kNN implementation and the other code provided to normalize your data. Test your model using several different values of k and **graphically show the results** using your implementation of **mse**.
+2. Split your data into testing and training data. Use the approximately the first 320 rows in the shuffled set as testing data. Feel free to use fewer examples in your testing set -- particularly if it takes a long time to run on your computer (e.g. more than 30 seconds). Use the rest of the data as your training set.
+3. Use the kNN implementation and the other code provided to normalize your data. Run your model (using the normalized data) with several different values of k and **graphically show the results** using your implementation of **mse** from step #1.
 4. Repeat the experiment and **graphically show the results** using r^2.
 5. Describe your findings. What conclusions can you draw about the best number for k for the k-NN algorithm for this data set? **Explain why.** Use a markdown cell to explain your conclusions.
 
